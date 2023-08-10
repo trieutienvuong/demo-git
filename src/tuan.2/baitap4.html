@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+    #title {
+            text-align: justify;
+            color: blue;
+            background-color: aquamarine ;
+            font-size: 18px; 
+           
+        }
+    .right {
+            text-align: left;
+            color: blue;
+    }
+     form {
+        width: 450px;
+        height: 280px;
+        border: 1px solid white;
+        background-color: khaki;
+     }
+    </style>
+    
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+            <td colspan="3" id="title" ><b>ĐĂNG KÝ HỌC VIÊN</b></td>
+        </tr>
+            <tr>
+            <td class="right">Họ và tên</td>
+            <td><input type="text" size="28"></td>
+        </tr>
+        <tr>
+            <td class="right">Ngày sinh</td>
+            <td><input type="text" size="15"></td>
+        </tr>
+        <tr>
+            <td class="right">Giới tính</td>
+           <td> <input type="radio" name="gender" id="male">Nam  <input type="radio" name="gender" id="male">Nữ </td>
+        </tr>
+        <tr>
+            <td class="right">Địa chỉ</td>
+            <td> <textarea name="diachi" id="" cols="25" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td class="right">Lớp</td>
+            <td><select>
+                <option value="chonlop">-Chọn Lớp-</option>
+                <option value="lop1">lớp 1</option>
+                <option value="lop2">lớp 2</option>
+                <option value="lop3">lớp 3</option>
+              </select></td>
+        </tr>
+        <tr>
+            <td class="right">Email</td>
+            <td > <input type="text"></td>
+        </tr>
+        <tr>
+            <td class="right">Điện thoại</td>
+            <td > <input type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td ><button>Đăng ký</button>
+            <button>Nhập lại</button></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
